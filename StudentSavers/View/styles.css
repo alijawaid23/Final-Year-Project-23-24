@@ -1,0 +1,341 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.title-logo-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+
+.logo-image {
+width: 40px; 
+height: auto; 
+margin-right: 10px; 
+}
+
+
+.search-container {
+  text-align: center;
+  padding: 20px 0; 
+}
+
+.search-form {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc; 
+  border-radius: 50px; 
+  overflow: hidden;
+}
+
+.search-form input[type="text"] {
+  flex-grow: 1;
+  border: none;
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 50px; 
+}
+
+.search-form input[type="text"]:focus,
+.search-form .search-button:focus {
+  border: 2px solid #007bff; 
+  box-shadow: 0 0 0 2px #007bff; 
+}
+
+.search-form .search-button {
+  background: none;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.admin-portal-link a {
+  color: #007bff; 
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #007bff; 
+  border-radius: 5px; 
+}
+
+.admin-portal-link a:hover {
+  background-color: #007bff; 
+  color: white;
+}
+
+h1 {
+  font-size: 24px; 
+  margin: 0;
+}
+
+.offers-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  padding: 10px;
+}
+
+.offer-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.offer-image {
+  width: 100%;
+  display: block; 
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.offer-details {
+  padding: 15px;
+}
+
+.offer-title {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.offer-description {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.offer-location {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.voucher-btn {
+  background-color: #000000; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Rating Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 300px; 
+  text-align: center;
+}
+
+.star {
+  font-size: 2em;
+  cursor: pointer;
+  color: gold;
+}
+
+.bottom-menu-bar,
+.icon-menu-bar {
+  display: none;
+}
+
+
+/*styles for Add and Update Offers Page */
+.add-update-page .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-update-page .logo {
+  width: auto; 
+  height: 40px; 
+  margin-right: 10px; 
+}
+
+.add-update-page h1 {
+  font-size: 24px; 
+  margin: 0; 
+  color: #333; 
+}
+
+.add-update-page body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  text-align: center; 
+}
+
+.add-update-page form {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.add-update-page label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.add-update-page input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-update-page button {
+  background-color: #0BBF64;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-update-page button:hover {
+  background-color: #0a8f53;
+}
+
+/* Styles for admin page similar to add-update-page */
+.admin {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+  text-align: center; 
+}
+
+.admin h1 {
+  font-size: 24px; 
+  color: #333; 
+  margin-bottom: 20px; 
+}
+
+.admin form {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin: auto; /* Centering form */
+  max-width: 400px; /* Consistent with add-update-page */
+}
+
+.admin input[type="email"], 
+.admin input[type="password"], 
+.admin input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px; 
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.admin input[type="submit"] {
+  background-color: #0BBF64;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.admin input[type="submit"]:hover {
+  background-color: #0a8f53; 
+}
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+
+.offers-section {
+margin-bottom: 80px; 
+}
+
+.bottom-menu-bar,
+.icon-menu-bar {
+display: flex; 
+justify-content: space-around;
+align-items: center;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: #fff; 
+padding: 10px 0;
+box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+z-index: 100; 
+}
+
+.menu-item {
+text-decoration: none;
+color: #333; 
+font-size: 16px; 
+}
+
+.menu-item:hover {
+color: #000; 
+}
+
+/* Bottom Icon Menu Bar styles */
+.icon-menu-bar {
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: #fff; 
+padding: 10px 0;
+box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon-link {
+display: inline-block;
+padding: 8px;
+text-align: center;
+}
+
+.icon-link img {
+width: 30px; 
+height: auto;
+}
+
+}
