@@ -5,9 +5,9 @@ ini_set('display_errors',1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$db_user = "k2122702";
-$db_name = "db_k2122702";
-$db_password = "ffo9Frhp";
+$db_user = "k";
+$db_name = "db_k";
+$db_password = "";
 $pdo = new PDO("mysql:host=localhost;dbname=$db_name", $db_user, $db_password);
 
 define('IMAGE_BASE_URL', 'http://kunet.uk/k2122702/StudentSavers/uploads/');
