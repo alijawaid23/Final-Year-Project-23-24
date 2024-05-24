@@ -28,7 +28,7 @@ if(isset($_REQUEST["login"]))
         $Admin->email = htmlentities($email);
         $Admin->password = htmlentities($password);
 
-        if($email == "admin@studentsavers.com" && $password =="Admin123")
+        if($email == "admin@studentsavers.com" && $password =="********")
         {
           
             header("Location: ../Controller/addandupdate.php");
