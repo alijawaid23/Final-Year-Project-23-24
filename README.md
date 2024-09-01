@@ -3,7 +3,7 @@ My final-year project focused on building a web application connecting students 
 
 Ranked 3rd across the Computer Science department (120+ candidates) with a distinguished 87% grade; my project was selected as an epic sample for future years, filmed for Kingston University advertisements, and featured on their social media platforms.
 
-Tech Stack Used: High-Fidelity Prototype: Figma; Backend: PHP, MYSQL; Frontend: CSS, JavaScript, jQuery, and Ajax
+Tech Stack Used: High-Fidelity Prototype: Figma; Backend: PHP, MYSQL; Frontend: CSS, JavaScript, jQuery, and Ajax; Code Structure: MVC
 
 URL to access the website: https://kunet.uk/k2122702/StudentSavers/Controller/offerlist.php (server will be deactivated any time after July 2024)
 
